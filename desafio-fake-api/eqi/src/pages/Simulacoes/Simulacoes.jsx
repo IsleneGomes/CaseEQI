@@ -9,6 +9,7 @@ export default function Simulacoes({ simulacoes }) {
         <h2>Simulador</h2>
         <div className='bloco_rendimentos'>
           <h3>Rendimentos</h3>
+          <button>{simulacoes}</button>
         </div>
         <div className='bloco_indexacao'>
           <h3>Tipos de Indexação</h3>
